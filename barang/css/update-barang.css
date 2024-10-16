@@ -1,0 +1,99 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 28%;
+    margin: 0 auto;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styling for the form */
+form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* Styling for the input fields */
+input, select, textarea {
+    margin-bottom: 5px;
+}
+
+/* Styling for the submit button */
+button {
+    margin-top: 10px;
+}
+
+/* Styling for the edit form */
+.edit-form {
+    margin-top: 20px;
+}
+
+.edit-form label {
+    font-weight: bold;
+}
+
+.edit-form input, .edit-form textarea {
+    border-color: #007bff;
+}
+
+.edit-form button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Styling for the Indonesian form */
+.indonesian-form {
+    label {
+        text-align: left;
+    }
+}
+
+/* Styling for the edit form */
+.edit-form input[type="text"][readonly] {
+    border-color: #ccc;
+}

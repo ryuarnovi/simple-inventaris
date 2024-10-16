@@ -1,0 +1,85 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Styling for the action column */
+.action-column {
+    width: 150px;
+}
+
+.action-column a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Styling for the edit button */
+.edit-button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Styling for the delete button */
+.delete-button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+}
+
+/* Styling for the table heading */
+.table-heading {
+    background-color: #f0f0f0;
+}
+
+/* Styling for the table body */
+.table-body {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styling for the table rows */
+.table-row {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styling for the table row with odd index */
+.table-row-odd {
+    background-color: #f9f9f9;
+}
+
+/* Styling for the table cell with text content */
+.table-cell-text {
+    text-align: left;
+}
+
+/* Styling for the table cell with number content */
+.table-cell-number {
+    text-align: right;
+}
